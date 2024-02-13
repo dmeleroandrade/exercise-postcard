@@ -1,0 +1,71 @@
+#container {
+	border: 3px solid black;
+	border-radius: 2em;
+	width: 600px;
+	height: 500px;
+	margin-top: 500px;
+	margin: 0 auto;
+	background-color: antiquewhite;
+}
+.title {
+	font-family: "Workbench", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings: "BLED" 7;
+	width: 200px;
+	margin-top: 30px;
+	margin-left: 5px;
+}
+img {
+	width: 80px;
+	margin: 20px 20px;
+}
+.section {
+	display: flex;
+	flex-flow: column wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+p {
+	width: 300px;
+	font-family: "Playpen Sans", cursive;
+	font-optical-sizing: auto;
+	font-weight: weight;
+	font-style: normal;
+}
+input {
+	margin: 10px 2px 2px 2px;
+	padding-right: 50px;
+	border: none;
+	border-bottom: 1px solid gray;
+	background-color: antiquewhite;
+	font-family: "Playpen Sans", cursive;
+	font-optical-sizing: auto;
+	font-weight: weight;
+	font-style: normal;
+}
+
+.down {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-around;
+}
+.second {
+	padding-left: 1.2em;
+}
+.button {
+	padding: 10px 20px;
+	margin-left: 250px;
+	margin-top: 1rem;
+	background-color: rgb(44, 9, 44);
+	border-radius: 1em;
+	color: wheat;
+}
+.button:hover {
+	background-color: rgb(200, 152, 90);
+}
+.button:active {
+	background-color: antiquewhite;
+}
